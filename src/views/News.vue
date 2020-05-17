@@ -2,7 +2,7 @@
   <div>
     <h1>Welcome to News</h1>
     <div class="buttonContainer">
-      <a class="button" href="https://vuejs.org" target="_blank" rel="noopener">Click Me!</a>
+      <a class="button" v-on:click="printMsg">Click Me!</a>
     </div>
   </div>
 </template>
@@ -10,6 +10,11 @@
 <script>
 export default {
   name: 'News',
+  methods: {
+    printMsg() {
+      console.log("You are currently on the News page.")
+    }
+  }
 }
 </script>
 
