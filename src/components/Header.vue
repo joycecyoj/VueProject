@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style scoped>
+  #nav {
+    padding-top: 15px;
+  }
+
   .header {
     background: #333;
     color: #fff;
@@ -27,9 +31,5 @@ export default {
     color: #fff;
     padding-right: 5px;
     text-decoration: none;
-  }
-
-  #nav {
-    padding-top: 15px;
   }
 </style>
